@@ -1,6 +1,7 @@
 {
   "name": "fasco-shop",
   "private": true,
+  "homepage": "https://albert-braun.github.io/Online-clothing-store",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
