@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Volkhov", Georgia, serif;
+  --color-ink: #000000;
+  --color-mute: #8a8a8a;
+  --color-line: #e6e6e6;
+  --color-wash: #fafafa;
+  --color-star: #edcf5d;
+  --color-sale: #ff4646;
+}
+
+@layer base {
+  html {
+    scroll-behavior: auto;
+  }
+  body {
+    @apply m-0 bg-white font-sans text-sm text-ink antialiased;
+  }
+  a {
+    @apply text-inherit no-underline;
+  }
+  button,
+  input,
+  select,
+  textarea {
+    @apply font-sans;
+  }
+  img {
+    @apply block max-w-full;
+  }
+}
+
+.swiper-pagination-bullet {
+  background: #000 !important;
+  opacity: 0.25;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+}
