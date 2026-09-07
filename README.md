@@ -1,28 +1,27 @@
-A high-performance, modern, and fully responsive **Marketplace web application**. This project showcases a seamless user experience, fluid animations, robust state management, and strict type safety using the latest frontend development stack.
+# FASCO Store
 
-## 🛠️ Tech Stack
+Fashion e-commerce UI: catalogue, product pages, cart and wishlist. Client-side search, forms with validation, and state in Zustand. Layout from Figma, built as a multi-page React app.
 
-This project leverages the newest versions of industry-standard tools to ensure maximum speed, scalability, and maintainability:
+**Live:** [albert-braun.github.io/Online-clothing-store](https://albert-braun.github.io/Online-clothing-store/)
 
-* **React 19** — Next-generation UI rendering with enhanced concurrent features and native hooks.
-* **TypeScript** — Strict static typing for clean, self-documenting, and bug-free code.
-* **Vite 7** — Lightning-fast next-gen build tool and ultra-optimized Hot Module Replacement (HMR).
-* **Tailwind CSS 4** — Modern utility-first CSS framework with native CSS variables and improved compiler speed.
-* **React Router 7** — Comprehensive routing, layout management, and seamless page transitions.
-* **Zustand** — Lightweight, centralized, and persistent state management for the Shopping Cart, Wishlist, and User Account.
-* **React Hook Form + Zod** — Performance-focused form handling paired with runtime schema-based validation.
-* **Fuse.js** — Lightweight fuzzy-search library for instant, client-side product filtering and suggestions.
-* **Framer Motion** — Production-ready, smooth scroll-triggered and interactive UI animations.
-* **Swiper** — Touch-enabled, hardware-accelerated sliders for product galleries and hero banners.
-* **Lucide React** — Clean, consistent, and fully customizable vector icon pack.
-* **GitHub Pages** — Automated deployment pipeline for hosting the production static build.
+## Stack
+- React 19 + TypeScript
+- Vite
+- React Router
+- Tailwind CSS
+- Zustand
+- React Hook Form + Zod
+- Framer Motion, Swiper, Fuse.js
 
----
+## What’s in the UI
+- Cart and wishlist persisted in `localStorage`
+- Fuzzy product search
+- Product detail routes and account screens
+- Checkout / auth forms with schema validation
+- Sliders and scroll motion on marketing blocks
 
-## ✨ Key Features
-
-* **Full E-Commerce Flow** — Fully functional Shopping Cart and Wishlist with persistent local storage.
-* **Smart Fuzzy Search** — Instant product filtering as you type, handling typos and partial matches gracefully.
-* **Dynamic Routing** — Nested layouts, protected routes for accounts, and dynamic product detail pages.
-* **Fluid UX/UI** — Smooth scroll-animations, responsive layout transitions, and touch-optimized mobile carousels.
-* **Rock-Solid Forms** — Secure checkout and authentication forms with real-time Zod validation feedback.
+## Run locally
+```bash
+npm install
+npm run dev
+```
